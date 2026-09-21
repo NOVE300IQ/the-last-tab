@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    overflow: hidden;
+    background: #250000;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("images/introbg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.headings {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    justify-items: center;
+    color: white;
+    mix-blend-mode: difference;
+}
+
+.headings h1 {
+    margin-top: 18px;
+    font-family: "IBM Plex Mono", monospace;
+    margin-left: 12px;
+}
+
+.head-textlogo {
+    width: 73px;
+    height: 73px;
+}
+
+.rip-cont {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 220px;
+    pointer-events: none;
+}
+
+.rip {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.rip img {
+    position: absolute;
+    bottom: -40px;
+    height: auto;
+}
+
+.rip1 {
+    left: 5%;
+    width: 180px;
+}
+
+.rip2 {
+    left: 40%;
+    width: 220px;
+}
+
+.rip3 {
+    right: 5%;
+    width: 180px;
+}
+
+.music-popup {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.65);
+    backdrop-filter: blur(5px);
+}
+
+.music-box {
+    width: 380px;
+    padding: 30px;
+    background: #100303;
+    border: 1px solid rgba(255, 255,2 55, 0.2);
+    color: white;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+.music-box h2 {
+    margin-bottom: 10px;
+}
+
+.music-box p {
+    margin-bottom: 25px;
+    opacity: 0.7;
+}
+
+.music-button {
+    display: flex;
+    gap: 10px;
+}
+
+.music-buttons button {
+    padding: 10px 20px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.music-buttons button:hover {
+    background: white;
+    color: black;
+}

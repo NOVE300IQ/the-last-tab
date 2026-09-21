@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Special+Elite&family=VT323&display=swap" rel="stylesheet">
+    <title>last-tab</title>
+</head>
+<body>
+    <main>
+        <div class="headings">
+            <img src="images/lasttab-logo.png" alt="just a text logo" class="head-textlogo">
+            <h1>The Last Tab</h1>
+        </div>
+        <div class="music-popup" id="musicPopup">
+            <div class="music-box">
+                <h2>Can we play music ?</h2>
+                <p>Audio is part of the experience.</p>
+                <div class="music-buttons">
+                    <button id="allowMusic">Allow</button>
+                    <button id="denyMusic">No thanks</button>
+                </div>
+            </div>
+        </div>
+        <div class="rip-cont">
+        <div class="rip">
+            <img src="images/1rip.png" class="rip1">
+            <img src="images/2rip.png" class="rip2">
+            <img src="images/3rip.png" class="rip3">
+        </div>
+        </div>
+        <audio id="bgMusic" loop>
+            <source src="audios/whos-there-@nove.wav" type="audio/mpeg">
+        </audio>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
