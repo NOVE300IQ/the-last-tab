@@ -30,7 +30,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-
     padding-bottom: 20px;
     border-bottom: 1px solid #222;
 }
@@ -73,11 +72,9 @@ header h1 {
     width: min(600px, 100%);
     margin-top: 25px;
     padding: 13px;
-
     background: #050505;
     border: 1px solid #292929;
     outline: none;
-
     color: white;
     font-family: inherit;
     font-size: 13px;
@@ -90,13 +87,10 @@ header h1 {
 #searchBtn {
     margin-left: 6px;
     padding: 13px 18px;
-
     background: transparent;
     border: 1px solid #444;
-
     color: #ddd;
     font-family: inherit;
-
     cursor: pointer;
 }
 
@@ -109,7 +103,6 @@ header h1 {
     display: flex;
     flex-direction: column;
     gap: 8px;
-
     margin-top: 25px;
     width: min(600px, 100%);
 }
@@ -117,13 +110,10 @@ header h1 {
 #results button {
     width: 100%;
     padding: 14px;
-
     background: #0d0d0d;
     border: 1px solid #222;
-
     color: #aaa;
     text-align: left;
-
     font-family: inherit;
     cursor: pointer;
 }
@@ -149,7 +139,6 @@ header h1 {
 #record h2 {
     margin-top: 15px;
     margin-bottom: 25px;
-
     font-family: "Special Elite", cursive;
     font-size: 25px;
     font-weight: normal;
@@ -157,7 +146,6 @@ header h1 {
 
 #record p {
     max-width: 650px;
-
     color: #aaa;
     font-family: "Special Elite", cursive;
     line-height: 1.8;
@@ -166,13 +154,10 @@ header h1 {
 #record button {
     margin-top: 30px;
     padding: 9px 16px;
-
     background: transparent;
     border: 1px solid #444;
-
     color: white;
     font-family: inherit;
-
     cursor: pointer;
 }
 
@@ -186,17 +171,13 @@ header h1 {
     left: 35px;
     right: 35px;
     bottom: 25px;
-
     height: 120px;
     padding-top: 12px;
     padding-bottom: 8px;
-
     border-top: 1px solid #1c1c1c;
-
     font-family: "VT323", monospace;
     font-size: 17px;
     color: #666;
-
     overflow-y: auto;
     overflow-x: hidden;
 }
