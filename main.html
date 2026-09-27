@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>LAST _ TAB</title>
+    </head>
+<body>
+    <main id="game">
+        <header>
+            <div>
+                <small>ARCHIEVE-TERMINAL-04</small>
+                <h1>record Database</h1>
+            </div>
+            <span id="clock">00:00:00</span>
+
+        </header>
+        <section id="screen">
+            <div id="home">
+                <p>DATABASE-CONNECTED</p>
+                <p>12,481-RECORDS-AVAILABLE</p>
+                <input id="search" type="text" placeholder="SEARCH-ARcHIEVE">
+                <button id="searchBtn">-SEARCH-</button>
+                <div id="results"></div>
+            </div>
+            <div id="record" style="display: none;"></div>
+        </section>
+        <div id="terminal">
+            <p>> CONNECTION-ESTABLISHED</p>
+            <p>> ARCHIVE-INDEX-LOADED</p>
+            <p>> INCIDENT : 03:17</p>
+            <p>> FILE-CORRUPTION-DETECTED</p>
+            <p>> RESTORING : 11?7</p>
+        </div>
+    </main>
+     <audio id="searchMusic">
+        <source src="audios/bgmusic.mp3" type="audio/mp3">
+    </audio>
+    <script src="main.js"></script>
+</body>
+</html>
