@@ -19,4 +19,4 @@ timestamps, and even photos contains some clues, which will led you to the final
 
 # This may help you :-
 
-(ss)[images/mainss]
+![ss](images/mainss.png)
