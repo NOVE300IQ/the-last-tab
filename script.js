@@ -1,6 +1,6 @@
 const popup = document.getElementById("musicPopup");
 const allowMusic = document.getElementById("allowMusic")
-const denyMusic = document.getElementById("denyMusic");
+const denyMusic = document.getElementById("denyMusic")
 const bgMusic = document.getElementById("bgMusic")
 
 allowMusic.addEventListener("click", () => {
@@ -23,8 +23,8 @@ enterButton.addEventListener("click", () =>{
 
 cancelButton.addEventListener("click", () => {
     enterPopup.style.display = "none";
-});
+})
 
 continueButton.addEventListener("click", () =>{
-    window.location.href = "main.html";
+    window.location.href = "entering.html";
 });

@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    padding-top: 8vh;
+    padding-left: 50vh;
+    padding-right: 50vh;
+}
+
+
+.contexts {
+    text-align: center;
+}
+
+.contexts h1 {
+    font-family: "IBM Plex Mono", monospace;
+    color: rgb(255, 0, 0);
+    font-size: 120px;
+}
+
+.contexts span {
+    color: rgb(255, 255, 255);
+}
+
+.contexts p {
+    padding-top: 70px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+}
+
+.contexts img{
+    width: 700px;
+    height: 300px;
+}
+
+.blink {
+    animation: blind 2s linear infinite;
+}
+
+.buttons {
+    margin-top: 37vh;
+    margin-bottom: 37vh;
+    text-align: center;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: red;
+    font-family: "IBM Plex Mono", monospace;
+    animation: blind 1s linear infinite;
+    font-size: 70px;
+}
+
+@keyframes blind {
+    from {
+        color: aliceblue;
+    }
+    to {
+        color: rgb(255, 0, 0);
+    }
+}
