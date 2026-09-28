@@ -16,7 +16,7 @@ body {
 }
 
 main {
-    position: relative;
+    position: fixed;
     width: 100%;
     min-height: 100vh;
     background-image: url("images/introbg.png");
@@ -26,7 +26,7 @@ main {
 }
 .headings {
     display: flex;
-    margin-top: 10px;
+    margin-top: 120px;
     justify-content: center;
     justify-items: center;
     color: white;
@@ -157,7 +157,7 @@ main {
     margin-top: 20px;
     margin-right: 110px;
     margin-left: 120px;
-    padding: 1vh;
+    padding: 2vh;
     border: solid white 2px;
 }
 

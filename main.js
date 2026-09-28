@@ -192,15 +192,15 @@ function openRecord(id) {
     }
 
     if(id === "117") {
-        addTerminal("RECORD 117 ACCESSED")
+        addTerminal("RECORD-117-ACCESSED")
     }
 
     if(id === "281") {
-        addTerminal("RECORD 281 ACCESSED")
+        addTerminal("RECORD-281-ACCESSED")
     }
 
     if(id === "491") {
-        addTerminal("RECORD 491 ACCESSED")
+        addTerminal("RECORD-491-ACCESSED")
     }
 
     if(id === "12482") {
@@ -673,6 +673,7 @@ function openFinalRecord() {
         backButton.onclick = function() {
             play(backSfx)
             closeRecord()
+            window.location.href = "thanku.html"
         }
     }, 10000)
 }

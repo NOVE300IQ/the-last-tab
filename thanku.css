@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/introbg.png);
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-left: 320px;
+    padding-right: 320px;
+}
+
+.card {
+    background-color: white;
+    margin-top: 30vh;
+    padding: 20px;
+    border-radius: 16px;
+    border: 2px black dotted;
+    text-align: center;
+}
+
+.card:hover {
+    border: 4px black dashed;
+}
+
+.headings h1 {
+    font-family: "IBM Plex Mono", monospace;
+    margin-bottom: 12px;
+}
+
+.text p {
+    font-family: Arial, Helvetica, sans-serif;
+}
